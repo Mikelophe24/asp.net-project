@@ -1,0 +1,38 @@
+
+
+
+
+GET http://localhost:5277/games/1
+
+###
+
+GET http://localhost:5277/games
+
+###
+
+POST http://localhost:5277/games
+Content-Type: application/json
+
+{
+    "name": "New Game",
+    "genre": "Adventure",
+    "price": 100.00,
+    "releaseDate": "2024-07-01"
+    
+}
+###
+PUT http://localhost:5277/games/1
+Content-Type: application/json
+
+{
+    "name": "loveUtomuch",
+    "genre": "
+    
+    ",
+    "price": 9.99,
+    "releaseDate": "2020-03-10"
+}
+
+###
+
+DELETE http://localhost:5277/games/1
